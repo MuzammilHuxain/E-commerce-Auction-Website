@@ -9,7 +9,6 @@
   background: linear-gradient(89.28deg, #7b2334 5.99%, #9f3247 94.17%);
   padding: 0.7rem;
   position: relative;
-  border: 2px solid red;
 }
 .h-upper img {
   position: absolute;
@@ -36,7 +35,6 @@
   flex-direction: row;
   align-items: center;
   padding: 0.7rem 1rem;
-  border: 2px solid red;
 }
 .n-right-Con {
   display: flex;
