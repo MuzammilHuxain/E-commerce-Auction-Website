@@ -105,7 +105,7 @@ body {
 }
 .oa-cards-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   padding: 2rem;
   justify-content: center;
@@ -121,11 +121,13 @@ body {
   flex-direction: column;
   gap: 1rem;
 }
-.oa-card-inner-Spans {
+
+.inner-Spans {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 /* .oa-card span:first-child {
 } */
 .description {
@@ -197,7 +199,11 @@ body {
   border-radius: 10px;
   border: 1px solid black;
 }
-
+@media screen and (max-width: 1300px) {
+  .oa-cards-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media screen and (max-width: 950px) {
   .hero-section-wrapper {
     flex-direction: column;

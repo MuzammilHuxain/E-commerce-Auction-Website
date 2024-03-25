@@ -106,7 +106,7 @@
   align-self: center;
   background: #7b2334;
   position: absolute;
-  top: -47%;
+  top: -29%;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -157,6 +157,7 @@
   flex-direction: row;
   justify-content: space-around;
   gap: 2rem;
+  margin-top: 3rem;
 }
 .logoAnchorTags {
   display: flex;
@@ -250,7 +251,7 @@
   }
   .footerAnchorTagsWrapper {
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
   .rightCon {
     padding: 1rem 0rem;
@@ -260,6 +261,6 @@
   }
   .upperDiv {
     flex-direction: column;
-    top: -20%;
+    top: -15%;
   }
 }
