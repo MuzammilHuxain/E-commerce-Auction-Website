@@ -12,16 +12,17 @@
     margin-top: 2rem;
     display: flex;
     width: 100vw;
+    font-family: Roboto;
 }
 
 
 .left-container {
-    border: 1px solid red;
+   
     margin-left: 2rem;
     display: flex;
-    justify-content: center;
-  
+
     flex-direction: column;
+    width: 12%;
     gap: 2rem;
     color: #9F3247;
 
@@ -31,16 +32,21 @@
 
     display: flex;
     justify-content: space-between;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+
 
 
 }
 
-.price__filter{
+.price__filter {
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
 }
-
 
 
 
@@ -55,6 +61,11 @@
     opacity: 0px;
     color: white;
 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-align: center;
+
 }
 
 .pricing__filter {
@@ -63,17 +74,72 @@
     gap: 0.2rem;
 }
 
-.right__side{
-    border: 1px solid yellow;
+.right__side {
+
+   
     flex-grow: 1;
-    padding: 0rem 1rem;
+    padding: 0rem 2rem;
     color: #9F3247;
 
 }
 
-#upper_heading{
-    
+#upper_heading {
+margin-left: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.oa-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.oa-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+
+.oa-card-inner-Spans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.description {
+    color: #9f3247;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.bidsSpan {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.inner-Spans span:nth-child(3) {
+    color: #605d5e;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.lastchild {
+    color: #212427;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Roboto Condensed", sans-serif;
 }

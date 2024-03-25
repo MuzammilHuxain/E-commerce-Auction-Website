@@ -199,3 +199,67 @@
   background-color: #9f3247;
   opacity: 0.8;
 }
+#bar-icon {
+  display: none;
+}
+#searchVector {
+  display: none;
+}
+.footerAnchorTagsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+/* =======================================Responsiveness Header and Footer ============================================== */
+@media screen and (max-width: 750px) {
+  .n-anchortagsContainer {
+    display: none;
+  }
+  #bar-icon {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+  }
+  .n-left-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+  }
+  .n-searchBar {
+    display: none;
+  }
+  .n-right-Con {
+    justify-content: flex-end;
+  }
+  #searchVector {
+    display: flex;
+  }
+
+  .footerAnchorTagsContainer {
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  #fullScreenPara {
+    display: none;
+  }
+  #responsivePara {
+    display: flex;
+  }
+  .footerAnchorTagsWrapper {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .rightCon {
+    padding: 1rem 0rem;
+  }
+  .emailInput {
+    width: 100%;
+  }
+  .upperDiv {
+    flex-direction: column;
+    top: -20%;
+  }
+}
