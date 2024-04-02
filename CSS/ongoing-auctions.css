@@ -1,3 +1,6 @@
+#bar-icon {
+  display: none;
+}
 .sub_navigator {
   margin-left: 2rem;
 }
@@ -124,6 +127,9 @@
   font-size: 14px;
   font-family: "Roboto Condensed", sans-serif;
 }
+.filterIcon {
+  display: none;
+}
 @media screen and (max-width: 1300px) {
   .oa-cards-wrapper {
     grid-template-columns: repeat(2, 1fr);
@@ -133,6 +139,7 @@
   .left-container {
     display: none;
   }
+
   .oa-cards-wrapper {
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
@@ -143,7 +150,17 @@
   .right__side {
     padding: 0rem;
   }
+  .filter {
+    display: none;
+  }
+  .filterIcon {
+    display: flex;
+  }
   .oa-cards-wrapper {
     padding: 0.5rem;
+  }
+  #upper_heading {
+    margin: 0rem;
+    padding: 1rem;
   }
 }
