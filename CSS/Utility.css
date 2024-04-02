@@ -264,3 +264,9 @@
     top: -15%;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .footerAnchorTagsContainer {
+    flex-direction: column;
+  }
+}
