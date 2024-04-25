@@ -119,10 +119,24 @@ button {
   color: white;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 767px) {
   .left__side {
     width: 100%;
   }
+=======
+
+@media screen and (max-width: 768px) {
+    .sign__up__container {
+      
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .left__side {
+        width: 80%;
+    }
+>>>>>>> ed9fd7b (Adding seller sides pages)
 
   .right__side {
     display: none;
