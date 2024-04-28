@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIDBUY-Sign Up</title>
+    <link rel="stylesheet" href="../CSS/Utility.css" />
+
+    <link rel="stylesheet" href="../CSS/seller-personal-info.css" />
+    <link rel="stylesheet" href="../CSS/file-uploader.css">
+</head>
+
+<body>
+    <header class="h-Container">
+        <div class="h-upper">
+            <p class="h-paragraph">
+                Sign up and get your first order.
+                <a id="signUpSpan" href="./sign-up.html">Sign Up Now</a>
+            </p>
+
+            <img src="../images/Close.png" alt="Close Icon" />
+        </div>
+
+        <nav class="n-container">
+            <div class="n-left-logo">
+                <img src="../images/Logo text.png" alt="Logo" />
+            </div>
+
+            <div class="n-right-Con">
+                <ul class="n-anchortagsContainer">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="###">Sell</a></li>
+                    <li><a href="###">About Us</a></li>
+                </ul>
+                <div class="n-searchBar">
+                    <img src="../images/Frame.png" alt="Search Icon" />
+                    <input type="text" placeholder="Search for Products ..." />
+                </div>
+                <div class="iconscontainer">
+                    <a href="###"><img src="../images/gravity-ui_heart.png" alt="Heart" /></a>
+                    <a href="###"><img src="../images/Frame1.png" alt="Account iCon" /></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="sub_navigator">
+        <h3><span id="home__tag">Home</span> > Account</h3>
+    </div>
+    <div class="seller__personal__info__container">
+
+        <h1 id="primary__heading">Personal Information</h1>
+
+        <form action="" class="seller__personal__info__form">
+
+            <div class="form-group">
+                <!-- <label for="seller-name" required>Name:</label> -->
+                <input type="text" required id="seller-name" name="seller_name" placeholder="Name" />
+                <!-- <label for="seller-email" required>Email:</label> -->
+                <input type="text" required id="seller-email" name="seller_email" placeholder="Email" />
+                <!-- <label for="seller-contact-no">Phone:</label> -->
+                <input type="text" required id="seller-contact-no" name="seller-contact-no" placeholder="Phone" />
+            </div>
+
+
+            <div class="form-group">
+
+
+
+               
+                <!-- Upload Front of ID Card -->
+                <div id="file-upload-form-front" class="uploader">
+                    <input id="file-upload-front" type="file" name="fileUpload" accept="image/*" />
+                    <label for="file-upload-front" id="file-drag-front">
+                        <img id="file-image-front" src="#" alt="Preview" class="hidden">
+                        <div id="start-front">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            <div>ID Card Front</div>
+                            <div id="notimage-front" class="hidden">Please select an image</div>
+                            <span id="file-upload-btn-front" class="btn btn-primary">Select a file</span>
+                        </div>
+                        <div id="response-front" class="hidden">
+                            <div id="messages-front"></div>
+                            <progress class="progress" id="file-progress-front" value="0">
+                                <span>0</span>%
+                            </progress>
+                        </div>
+                    </label>
+                </div>
+
+                <!-- End of Upload Front of ID card -->
+
+
+
+                <!-- Upload Back of ID card -->
+                <div id="file-upload-form-back" class="uploader">
+                    <input id="file-upload-back" type="file" name="fileUpload" accept="image/*" />
+                    <label for="file-upload-back" id="file-drag-back">
+                        <img id="file-image-back" src="#" alt="Preview" class="hidden">
+                        <div id="start-back">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            <div>ID Card Back</div>
+                            <div id="notimage-back" class="hidden">Please select an image</div>
+                            <span id="file-upload-btn-back" class="btn btn-primary">Select a file</span>
+                        </div>
+                        <div id="response-back" class="hidden">
+                            <div id="messages-back"></div>
+                            <progress class="progress" id="file-progress-back" value="0">
+                                <span>0</span>%
+                            </progress>
+                        </div>
+                    </label>
+                </div>
+                <!-- End of Upload Back of ID card -->
+
+
+
+            </div>
+            <button type="submit" id="next__btn">Next</button>
+        </form>
+
+    </div>
+
+    <footer class="footerContainer">
+        <div class="upperDiv">
+            <div class="leftCon">
+                <h1>
+                    Stay Up to date About Our <br />
+                    Latest Auctions
+                </h1>
+            </div>
+            <div class="rightCon">
+                <div class="emailInput">
+                    <img src="../images/email.png" alt="Email Icon" />
+                    <input type="email" name="email" id="email" placeholder="Enter email .." />
+                </div>
+                <button>Subscribe to Newsletter</button>
+            </div>
+        </div>
+
+        <div class="footerAnchorTagsWrapper">
+            <div class="logoAnchorTags">
+                <img src="../images/Logo text.png" alt="Logo" />
+                <p>
+                    Join online auctions and find <br />
+                    unique items to buy and sell with <br />
+                    excitement!
+                </p>
+                <div class="socialAnchortagsContainer">
+                    <a href="###"><img src="../images/1.png" alt="Twitter" /></a>
+                    <a href="###"><img src="../images/Group 16.png" alt="Facebook" /></a>
+                    <a href="###"><img src="../images/3.png" alt="Instagram" /></a>
+                    <a href="###"><img src="../images/4.png" alt="GitHub" /></a>
+                </div>
+            </div>
+
+            <div class="anchorTagsContainer" id="companyAnchorTags">
+                <h1>Company</h1>
+                <div class="anhorTags">
+                    <a href="">About</a><a href="">Features</a><a href="">Works</a><a href="">Career</a>
+                </div>
+            </div>
+            <div class="anchorTagsContainer" id="helpAnchorTags">
+                <h1>Help</h1>
+                <div class="anhorTags">
+                    <a href="">Customer Support</a><a href="">Delivery Details</a><a href="">Terms & conditions</a><a
+                        href="">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="anchorTagsContainer" id="accountAnchorTags">
+                <h1>FAQ</h1>
+                <div class="anhorTags">
+                    <a href="">Account</a><a href="">Manage Deliveries</a><a href="">Orders</a><a href="">Payments</a>
+                </div>
+            </div>
+            <div class="anchorTagsContainer" id="resourcesAnchorTags">
+                <h1>Resources</h1>
+                <div class="anhorTags">
+                    <a href="">Free ebooks</a><a href="">Development tutorials</a><a href="">how to-Blog</a><a
+                        href="">Youtube Playlists</a>
+                </div>
+            </div>
+        </div>
+        <div class="dividerFooter"></div>
+        <p class="copyrightPara">Bidbuyy &copy 2000-2023, All Rights Reserved</p>
+    </footer>
+
+
+    <script src="../JavaScript/file-uploader.js"></script>
+</body>
+
+</html>
